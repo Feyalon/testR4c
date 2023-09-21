@@ -4,7 +4,6 @@ from .serializers import RobotSerializer
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Robot
-from openpyxl import Workbook
 import csv
 
 class RobotListCreateView(generics.ListCreateAPIView): # Api-endpoint с помощью django_rest_framework 
